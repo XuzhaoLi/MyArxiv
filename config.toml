@@ -17,6 +17,16 @@ limit = 150
 category = "cs.HC"
 title = "Human-Computer Interaction"
 
+[[sources]]
+limit = 150
+category = "cs.MM"
+title = "Multimedia"
+
+[[sources]]
+limit = 150
+category = "eess.IV"
+title = "Image and Video Processing"
+
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
 highlight_author = "scripts/highlight_author.rhai"
