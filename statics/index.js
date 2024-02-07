@@ -24,7 +24,7 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-const currentTheme = 'dark';
+const currentTheme = 'light';
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
     if (currentTheme === 'light') {
