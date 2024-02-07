@@ -1,0 +1,23 @@
+site_title = "MyArxiv"
+limit_days = 30
+cache_url = "https://xuchen-li.github.io/MyArxiv/cache.json"
+
+[[sources]]
+limit = 150
+category = "cs.CV"
+title = "Computer Vision and Pattern Recognition"
+
+[[sources]]
+limit = 150
+category = "cs.CL"
+title = "Computation and Language"
+
+[[sources]]
+limit = 150
+category = "cs.HC"
+title = "Human-Computer Interaction"
+
+[scripts]
+highlight_title = "scripts/highlight_title.rhai"
+highlight_author = "scripts/highlight_author.rhai"
+highlight_conference = "scripts/highlight_conference.rhai"
