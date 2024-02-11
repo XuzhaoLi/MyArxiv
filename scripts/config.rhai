@@ -1,6 +1,6 @@
 let titles_type = [];
-let titles_model = ["Visual", "Language", "Object","Tracking","Language Model"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised", "Attention", "Finetune", "Fine-tune", "Finetuning", "Alignment", "Auto-Regressive", "Unified"];
+let titles_model = ["Planning", "Navigation", "Autonomous Driving", "Control","Optimization"];
+let titles_method = ["Route", "Decision Making", "Perception", "Planning", "Attention", "Finetune", "Fine-tune", "Map Matching", "Alignment", "Auto-Regressive", "Unified"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = [];
 
