@@ -1,31 +1,26 @@
 site_title = "MyArxiv"
 limit_days = 30
-cache_url = "https://xuchen-li.github.io/MyArxiv/cache.json"
+cache_url = "https://xuzhaoli.github.io/MyArxiv/cache.json"
 
 [[sources]]
 limit = 150
-category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
+category = "cs.RO"
+title = "Robotics"
 
 [[sources]]
 limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+category = "cs.MA"
+title = "Multiagent Systems"
 
 [[sources]]
 limit = 150
-category = "cs.HC"
-title = "Human-Computer Interaction"
+category = "cs.SY"
+title = "Systems and Control (CS)"
 
 [[sources]]
 limit = 150
-category = "cs.MM"
-title = "Multimedia"
-
-[[sources]]
-limit = 150
-category = "eess.IV"
-title = "Image and Video Processing"
+category = "eess.SY"
+title = "Systems and Control (EESS)"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
